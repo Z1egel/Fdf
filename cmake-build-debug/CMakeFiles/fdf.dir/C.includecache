@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mbennis/42/fdf/fdf.c
+fdf.h
+/Users/mbennis/42/fdf/fdf.h
+stdio.h
+-
+
+/Users/mbennis/42/fdf/fdf.h
+libft/libft.h
+/Users/mbennis/42/fdf/libft/libft.h
+sources/minilibx/mlx.h
+/Users/mbennis/42/fdf/sources/minilibx/mlx.h
+
+/Users/mbennis/42/fdf/libft/libft.h
+string.h
+-
+
+/Users/mbennis/42/fdf/sources/minilibx/mlx.h
+
